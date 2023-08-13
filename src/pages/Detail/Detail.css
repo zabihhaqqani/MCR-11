@@ -24,6 +24,7 @@
   margin: 1rem;
   border-radius: 5px;
   justify-content: center;
+  max-width:60% ;
 }
 
 .details-card-container img {
