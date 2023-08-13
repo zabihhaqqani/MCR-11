@@ -1,0 +1,36 @@
+.details-content {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.details-content p {
+  margin: 0.5rem 1rem;
+}
+
+.details-content h2 {
+  margin: 0.5rem 1rem;
+}
+
+.details-content button {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.details-card-container {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.details-card-container img {
+  width: 280px;
+}
+
+.details-card-container-main {
+  display: flex;
+  justify-content: center;
+}

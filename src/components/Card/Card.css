@@ -1,0 +1,45 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.527);
+  max-width: 250px;
+  border: 1px solid #ddd;
+  justify-content: space-between;
+    /* height: fit-content; */
+}
+
+.card button {
+  background-color: #f02836;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.card img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: 50%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+
+
+.card p {
+  padding: 0rem 0.5rem;
+}
